@@ -1,6 +1,6 @@
 # Store Computers
 
-> Trabalho para a disciplina de Desenvolvimento de Sistemas
+> Trabalho Final para a disciplina de Desenvolvimento de Sistemas - Sistemas de Informação - UNIPLAC
 
 
 ## Integração com o Twitter
