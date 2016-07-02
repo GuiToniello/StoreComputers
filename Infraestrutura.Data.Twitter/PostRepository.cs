@@ -19,10 +19,10 @@ namespace Infraestrutura.Data.Twitter
         public PostRepository()
         {
             // Colocar as chaves de acesso aqui
-            _consumerKey = "HAPr1XBhtRnJHZdFumpzsZRuy"; 
-            _consumerSecret = "YrmANYBjwm3gElTpdAd46NKd1PqtyM2VAo4JZlxP26UMi7kbhh";
-            _accessToken = "86951143-bfaAGCYhvn3Yqf9IeICIkh2aj1QTp3rNp11yiVCLj";
-            _accessTokenSecret = "fxoMckfWzATaKfieVK9TMdxkf99hd1oJSWVf9zQTFrRkh";
+            _consumerKey = ""; 
+            _consumerSecret = "";
+            _accessToken = "";
+            _accessTokenSecret = "";
         }
 
 
