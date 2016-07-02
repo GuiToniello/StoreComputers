@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Camada de Apresentação", "1. Camada de Apresentação", "{78059064-F3F1-414C-968B-C8D7BFF054C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Camada de Aplicacao", "2. Camada de Aplicacao", "{BC912990-E8DC-4FD8-97E7-B48778D0D4F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Camada de Domínio", "3. Camada de Domínio", "{CF43129E-E4D3-4747-9618-CEBE2EAAC942}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Camada de Infraestrutura", "4. Camada de Infraestrutura", "{FD9F76F3-8B02-4F18-92C9-3A0F026C9CC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio", "Dominio\Dominio.csproj", "{3473B30C-4797-488E-8FA6-2C7AAD856DEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio.Test", "Uniplac.Trabalho_Final_Guilherme.Dominio.Test\Dominio.Test.csproj", "{041B0AF0-2B95-47BE-BF92-B6D303321605}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infraestrutura.Test", "Uniplac.Trabalho_Final.Infraestrutura.Test\Infraestrutura.Test.csproj", "{0DDBFEAF-733A-4E9D-891E-581A6D9BBB51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infraestrutura.Data.ORM", "Uniplac.Trabalho_Final_Guilherme.Infraestrutura\Infraestrutura.Data.ORM.csproj", "{A05C853E-E0C2-448F-9277-CA6535C9F6DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aplicacao", "Uniplac.Trabalho_Final_Guilherme.Aplicacao\Aplicacao.csproj", "{171984C7-EB8F-458D-AD54-2E4BD7D8E008}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aplicacao.Test", "Uniplac.Trabalho_Final_Guilherme.Aplicacao.Test\Aplicacao.Test.csproj", "{0768048F-6EA1-463A-834E-7BB151A95DB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infraestrutura.Data.Twitter", "Infraestrutura.Data.Twitter\Infraestrutura.Data.Twitter.csproj", "{70FC5FD7-7E94-4EBA-8D92-3452AA904626}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uniplac.Trabalho_Final.Apresentacao.Web", "Uniplac.Trabalho_Final.Apresentacao.Web\Uniplac.Trabalho_Final.Apresentacao.Web.csproj", "{63B356FC-E892-42E8-9BFB-FF2CBCF31446}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5D853EA3-3509-405D-BB09-C91DA532C331}"
+	ProjectSection(SolutionItems) = preProject
+		README.txt = README.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3473B30C-4797-488E-8FA6-2C7AAD856DEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3473B30C-4797-488E-8FA6-2C7AAD856DEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3473B30C-4797-488E-8FA6-2C7AAD856DEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3473B30C-4797-488E-8FA6-2C7AAD856DEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{041B0AF0-2B95-47BE-BF92-B6D303321605}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{041B0AF0-2B95-47BE-BF92-B6D303321605}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{041B0AF0-2B95-47BE-BF92-B6D303321605}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{041B0AF0-2B95-47BE-BF92-B6D303321605}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DDBFEAF-733A-4E9D-891E-581A6D9BBB51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DDBFEAF-733A-4E9D-891E-581A6D9BBB51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DDBFEAF-733A-4E9D-891E-581A6D9BBB51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DDBFEAF-733A-4E9D-891E-581A6D9BBB51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A05C853E-E0C2-448F-9277-CA6535C9F6DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A05C853E-E0C2-448F-9277-CA6535C9F6DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A05C853E-E0C2-448F-9277-CA6535C9F6DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A05C853E-E0C2-448F-9277-CA6535C9F6DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{171984C7-EB8F-458D-AD54-2E4BD7D8E008}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{171984C7-EB8F-458D-AD54-2E4BD7D8E008}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{171984C7-EB8F-458D-AD54-2E4BD7D8E008}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{171984C7-EB8F-458D-AD54-2E4BD7D8E008}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0768048F-6EA1-463A-834E-7BB151A95DB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0768048F-6EA1-463A-834E-7BB151A95DB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0768048F-6EA1-463A-834E-7BB151A95DB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0768048F-6EA1-463A-834E-7BB151A95DB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70FC5FD7-7E94-4EBA-8D92-3452AA904626}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70FC5FD7-7E94-4EBA-8D92-3452AA904626}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70FC5FD7-7E94-4EBA-8D92-3452AA904626}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70FC5FD7-7E94-4EBA-8D92-3452AA904626}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63B356FC-E892-42E8-9BFB-FF2CBCF31446}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63B356FC-E892-42E8-9BFB-FF2CBCF31446}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63B356FC-E892-42E8-9BFB-FF2CBCF31446}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63B356FC-E892-42E8-9BFB-FF2CBCF31446}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3473B30C-4797-488E-8FA6-2C7AAD856DEE} = {CF43129E-E4D3-4747-9618-CEBE2EAAC942}
+		{041B0AF0-2B95-47BE-BF92-B6D303321605} = {CF43129E-E4D3-4747-9618-CEBE2EAAC942}
+		{0DDBFEAF-733A-4E9D-891E-581A6D9BBB51} = {FD9F76F3-8B02-4F18-92C9-3A0F026C9CC9}
+		{A05C853E-E0C2-448F-9277-CA6535C9F6DF} = {FD9F76F3-8B02-4F18-92C9-3A0F026C9CC9}
+		{171984C7-EB8F-458D-AD54-2E4BD7D8E008} = {BC912990-E8DC-4FD8-97E7-B48778D0D4F5}
+		{0768048F-6EA1-463A-834E-7BB151A95DB4} = {BC912990-E8DC-4FD8-97E7-B48778D0D4F5}
+		{70FC5FD7-7E94-4EBA-8D92-3452AA904626} = {FD9F76F3-8B02-4F18-92C9-3A0F026C9CC9}
+		{63B356FC-E892-42E8-9BFB-FF2CBCF31446} = {78059064-F3F1-414C-968B-C8D7BFF054C5}
+	EndGlobalSection
+EndGlobal
