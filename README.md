@@ -1,19 +1,19 @@
 # Store Computers
 
-> Trabalho Final para a disciplina de Desenvolvimento de Sistemas - Sistemas de Informação - UNIPLAC
+> Trabalho Final para a disciplina de Desenvolvimento de Sistemas - Sistemas de InformaÃ§Ã£o - UNIPLAC
 
 
-## Integração com o Twitter
+## IntegraÃ§Ã£o com o Twitter
 
-> A integração com o twitter foi implementada ao cadastrar uma placa-mãe no sistema.
+> A integraÃ§Ã£o com o twitter foi implementada ao cadastrar uma placa-mÃ£e no sistema.
 
-> Isso foi implementado na camada de Aplicação, no ComputerService.cs, metodo de Create().
+> Isso foi implementado na camada de AplicaÃ§Ã£o, em MotherboardService.cs, metodo de Create().
 
 
 ## Funcionamento dos Testes
 
 
-> Para o funcionamento dos testes, é necessário informar as chaves do twitter em:
+> Para o funcionamento dos testes, Ã© necessÃ¡rio informar as chaves do twitter em:
 
 * Infraestrtura > Infraestrtura.Data.Twitter > PostRepository.cs
 
@@ -21,9 +21,9 @@
 
 
 
-## Execução da Aplicação
+## ExecuÃ§Ã£o da AplicaÃ§Ã£o
 
 
-> Para testar, após informar as chaves do twitter (sessão anterior), execute o projeto da camada de Apresentação
+> Para testar, apÃ³s informar as chaves do twitter (sessÃ£o anterior), execute o projeto da camada de ApresentaÃ§Ã£o
 
-> E cadastre um novo computador, assim, além de cadastrar no banco deve gerar um post no twitter.
+> E cadastre um novo computador, assim, alÃ©m de cadastrar no banco deve gerar um post no twitter.
