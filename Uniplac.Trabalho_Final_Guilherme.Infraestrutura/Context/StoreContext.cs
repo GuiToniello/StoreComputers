@@ -15,6 +15,6 @@ namespace Uniplac.Trabalho_Final_Guilherme.Infraestrutura.Context
 
         }
 
-        public DbSet<Computer> Computers { get; set; }
+        public DbSet<Motherboard> Motherboards { get; set; }
     }
 }

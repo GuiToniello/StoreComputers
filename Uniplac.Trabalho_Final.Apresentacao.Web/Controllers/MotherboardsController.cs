@@ -15,17 +15,17 @@ using Infraestrutura.Data.Twitter;
 
 namespace Uniplac.Trabalho_Final.Apresentacao.Web.Controllers
 {
-    public class ComputersController : Controller
+    public class MotherboardsController : Controller
     {
-        private IComputerRepository computerRepository;
+        private IMotherboardRepository motherboardRepository;
         private IPostRepository postRepository;
-        private IComputerService service;
+        private IMotherboardService service;
 
-        public ComputersController() : base()
+        public MotherboardsController() : base()
         {
-            computerRepository = new ComputerRepository();
+            motherboardRepository = new MotherboardRepository();
             postRepository = new PostRepository();
-            service = new ComputerService(computerRepository, postRepository);
+            service = new MotherboardService(motherboardRepository, postRepository);
         }
 
         // GET: Computers
@@ -41,7 +41,7 @@ namespace Uniplac.Trabalho_Final.Apresentacao.Web.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Computer computer = service.Read(id.Value);
+            Motherboard computer = service.Read(id.Value);
             if (computer == null)
             {
                 return HttpNotFound();
@@ -60,7 +60,7 @@ namespace Uniplac.Trabalho_Final.Apresentacao.Web.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,Model,Brand,Type")] Computer computer)
+        public ActionResult Create([Bind(Include = "Id,Model,Brand,Type")] Motherboard computer)
         {
             if (ModelState.IsValid)
             {
@@ -78,7 +78,7 @@ namespace Uniplac.Trabalho_Final.Apresentacao.Web.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Computer computer = service.Read(id.Value);
+            Motherboard computer = service.Read(id.Value);
             if (computer == null)
             {
                 return HttpNotFound();
@@ -91,7 +91,7 @@ namespace Uniplac.Trabalho_Final.Apresentacao.Web.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,Model,Brand,Type")] Computer computer)
+        public ActionResult Edit([Bind(Include = "Id,Model,Brand,Type")] Motherboard computer)
         {
             if (ModelState.IsValid)
             {
@@ -108,7 +108,7 @@ namespace Uniplac.Trabalho_Final.Apresentacao.Web.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Computer computer = service.Read(id.Value);
+            Motherboard computer = service.Read(id.Value);
             if (computer == null)
             {
                 return HttpNotFound();
@@ -121,7 +121,7 @@ namespace Uniplac.Trabalho_Final.Apresentacao.Web.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
-            Computer computer = service.Read(id);
+            Motherboard computer = service.Read(id);
             service.Delete(computer);
             return RedirectToAction("Index");
         }

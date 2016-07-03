@@ -9,19 +9,19 @@ using Dominio.Contracts;
 
 namespace Uniplac.Trabalho_Final_Guilherme.Aplicacao
 {
-    public class ComputerService : IComputerService
+    public class MotherboardService : IMotherboardService
     {
-        private IComputerRepository _repository;
+        private IMotherboardRepository _repository;
         private IPostRepository _postRepository;
 
 
-        public ComputerService(IComputerRepository repository, IPostRepository postRepository)
+        public MotherboardService(IMotherboardRepository repository, IPostRepository postRepository)
         {
             _repository = repository;
             _postRepository = postRepository;
         }
 
-        public Post Create(Computer computer)
+        public Post Create(Motherboard computer)
         {
             _repository.Create(computer);
             // Ao cadastrar um computador, é criado um post no twitter
@@ -30,22 +30,22 @@ namespace Uniplac.Trabalho_Final_Guilherme.Aplicacao
             return post;
         }
 
-        public void Delete(Computer computer)
+        public void Delete(Motherboard computer)
         {
             _repository.Delete(computer);
         }
 
-        public Computer Read(int id)
+        public Motherboard Read(int id)
         {
            return _repository.Read(id);
         }
 
-        public List<Computer> ReadAll()
+        public List<Motherboard> ReadAll()
         {
             return _repository.ReadAll();
         }
 
-        public Computer Update(Computer computer)
+        public Motherboard Update(Motherboard computer)
         {
             return _repository.Update(computer);
         }

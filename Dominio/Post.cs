@@ -24,22 +24,22 @@ namespace Dominio
             this.PostMessage = postMessage;
         }
 
-        public Post(Computer computer)
+        public Post(Motherboard computer)
         {
             var type = "";
             switch (computer.Type)
             {
-                case TypeComputerEnum.Desktop:
+                case TypeMotherboardEnum.Desktop:
                     type = "Desktop";
                     break;
-                case TypeComputerEnum.Hybrid:
+                case TypeMotherboardEnum.Hybrid:
                     type = "Híbrido";
                     break;
-                case TypeComputerEnum.Notebook:
+                case TypeMotherboardEnum.Notebook:
                     type = "Notebook";
                     break;
             };
-            this.PostMessage = String.Format("Novo {0}: {1} - {2}", type, computer.Model, computer.Brand);
+            this.PostMessage = String.Format("Novo Placa-mãe para {0}: {1} - {2}", type, computer.Model, computer.Brand);
         }
     }
 }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Dominio
 {
-    public class Computer
+    public class Motherboard
     {
         public int Id { get; set; }
 
@@ -15,15 +15,15 @@ namespace Dominio
 
         public string Brand { get; set; }
 
-        public TypeComputerEnum Type { get; set; }
+        public TypeMotherboardEnum Type { get; set; }
 
 
-        public Computer()
+        public Motherboard()
         {
 
         }
 
-        public Computer(string model, string brand, TypeComputerEnum type)
+        public Motherboard(string model, string brand, TypeMotherboardEnum type)
         {
             if (string.IsNullOrEmpty(model))
                 throw new BusinessException("The model not to be empty");

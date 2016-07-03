@@ -40,8 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ComputerService.cs" />
-    <Compile Include="IComputerService.cs" />
+    <Compile Include="MotherboardService.cs" />
+    <Compile Include="IMotherboardService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

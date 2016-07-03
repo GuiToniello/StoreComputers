@@ -5,7 +5,7 @@
 
 ## Integração com o Twitter
 
-> A integração com o twitter foi implementada ao cadastrar um computador no sistema.
+> A integração com o twitter foi implementada ao cadastrar uma placa-mãe no sistema.
 
 > Isso foi implementado na camada de Aplicação, no ComputerService.cs, metodo de Create().
 

@@ -1,6 +1,6 @@
 ﻿namespace Dominio
 {
-    public enum TypeComputerEnum
+    public enum TypeMotherboardEnum
     {
         Desktop,
         Notebook,
